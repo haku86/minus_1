@@ -14,6 +14,8 @@
 		5D84A9A01AC57E7C00F7D401 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D84A99F1AC57E7C00F7D401 /* Images.xcassets */; };
 		5D84A9A31AC57E7C00F7D401 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D84A9A11AC57E7C00F7D401 /* LaunchScreen.xib */; };
 		5D84A9AF1AC57E7C00F7D401 /* Minus_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84A9AE1AC57E7C00F7D401 /* Minus_1Tests.swift */; };
+		5D84A9BB1AC5811B00F7D401 /* Altera.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D84A9BA1AC580BC00F7D401 /* Altera.ttf */; };
+		5D84A9C71AC58D8800F7D401 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84A9C61AC58D8800F7D401 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		5D84A9A81AC57E7C00F7D401 /* Minus 1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minus 1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D84A9AD1AC57E7C00F7D401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D84A9AE1AC57E7C00F7D401 /* Minus_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minus_1Tests.swift; sourceTree = "<group>"; };
+		5D84A9BA1AC580BC00F7D401 /* Altera.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Altera.ttf; sourceTree = "<group>"; };
+		5D84A9C61AC58D8800F7D401 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +83,10 @@
 		5D84A9921AC57E7C00F7D401 /* Minus 1 */ = {
 			isa = PBXGroup;
 			children = (
+				5D84A9B81AC5808600F7D401 /* Resources */,
 				5D84A9951AC57E7C00F7D401 /* AppDelegate.swift */,
 				5D84A99A1AC57E7C00F7D401 /* ViewController.swift */,
+				5D84A9C61AC58D8800F7D401 /* GameViewController.swift */,
 				5D84A99C1AC57E7C00F7D401 /* Main.storyboard */,
 				5D84A99F1AC57E7C00F7D401 /* Images.xcassets */,
 				5D84A9A11AC57E7C00F7D401 /* LaunchScreen.xib */,
@@ -113,6 +119,22 @@
 				5D84A9AD1AC57E7C00F7D401 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D84A9B81AC5808600F7D401 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D84A9B91AC5809500F7D401 /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5D84A9B91AC5809500F7D401 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5D84A9BA1AC580BC00F7D401 /* Altera.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D84A9BB1AC5811B00F7D401 /* Altera.ttf in Resources */,
 				5D84A99E1AC57E7C00F7D401 /* Main.storyboard in Resources */,
 				5D84A9A31AC57E7C00F7D401 /* LaunchScreen.xib in Resources */,
 				5D84A9A01AC57E7C00F7D401 /* Images.xcassets in Resources */,
@@ -215,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D84A9C71AC58D8800F7D401 /* GameViewController.swift in Sources */,
 				5D84A99B1AC57E7C00F7D401 /* ViewController.swift in Sources */,
 				5D84A9991AC57E7C00F7D401 /* Minus_1.xcdatamodeld in Sources */,
 				5D84A9961AC57E7C00F7D401 /* AppDelegate.swift in Sources */,
